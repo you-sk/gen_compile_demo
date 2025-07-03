@@ -3,7 +3,7 @@
 echo "Building SGDK Hello World ROM..."
 
 # 現在のユーザーIDとグループIDを設定
-export UID=$(id -u)
+export USER_ID=$(id -u)
 export GID=$(id -g)
 
 # Dockerコンテナ内でビルド実行

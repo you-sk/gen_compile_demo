@@ -9,4 +9,4 @@ services:
     working_dir: /m68k
     stdin_open: true
     tty: true
-    user: "${UID:-1000}:${GID:-1000}"
+    user: "${USER_ID:-1000}:${GID:-1000}"
