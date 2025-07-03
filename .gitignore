@@ -2,6 +2,7 @@
 
 # SGDK Build Output
 out/
+build/
 *.bin
 *.elf
 *.out
