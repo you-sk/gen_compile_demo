@@ -1,0 +1,63 @@
+.claude
+
+# SGDK Build Output
+out/
+*.bin
+*.elf
+*.out
+*.o
+*.d
+*.lst
+*.nm
+*.wch
+symbol.txt
+rom_head.bin
+
+# Docker
+.docker/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.cbp
+*.layout
+*.depend
+*.workspace
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Generated resources (if using rescomp)
+res/*.h
+res/*.s
+
+# Backup files
+*.bak
+*.backup
+
+# Archive files (unless needed for distribution)
+*.zip
+*.7z
+*.tar.gz
+*.rar

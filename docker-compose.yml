@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sgdk-dev:
+    build: .
+    container_name: sgdk-development
+    volumes:
+      - .:/m68k
+    working_dir: /m68k
+    stdin_open: true
+    tty: true
+    user: "${UID:-1000}:${GID:-1000}"
