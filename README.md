@@ -63,6 +63,8 @@ docker-compose run --rm sgdk-dev make debug
 - `out/rom.bin` - SGDK標準出力
 - `out/symbol.txt` - デバッグ用シンボル情報
 
+![image](https://github.com/user-attachments/assets/f30937be-6a8c-45f6-b1c6-eace260dc078)
+
 ## ROMの実行
 
 生成された `hello_world.bin` は、以下のメガドライブエミュレータで実行できます：
